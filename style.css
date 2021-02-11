@@ -1,0 +1,25 @@
+.repo-section {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 100%;
+}
+
+body {
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+    margin: 50px;
+    width: 14rem;
+}

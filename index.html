@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Apis de imagens Aleatorias</title>
+</head>
+
+<body>
+    <header class="bg-dark p-3 shadow">
+        <h1 class="text-center text-white">
+            Random Image's API
+        </h1>
+    </header>
+    <main class="d-flex flex-column container m-auto">
+        <div class="row">
+            <section class="shadow d-flex flex-column">
+                <h2>Lorem Picsum</h2>
+                <img class="card-img-top" src="https://picsum.photos/200/300?random">
+                <code>
+                    https://picsum.photos/200/300?random
+                </code>
+            </section>
+            <section class="shadow d-flex flex-column">
+                <h2>Random Image API</h2>
+                <img class="card-img-top" src="https://random.imagecdn.app/200/300?random">
+                <code>
+                    https://random.imagecdn.app/200/300?random
+                </code>
+            </section>
+            <section class="shadow d-flex flex-column">
+                <h2>Unsplash</h2>
+                <img class="card-img-top" src="https://source.unsplash.com/random">
+                <code>
+                    https://source.unsplash.com/random
+                </code>
+            </section>
+        </div>
+        <button id="reload" class="btn btn-primary">Reload</button>
+    </main>
+    <section class="repo-section container">
+        <img  class="img-fluid" src="./img/markus-spiske-unsplash.png">
+        <section class="position-absolute d-flex flex-column justify-content-center">
+            <h3><b>Source Code</b></h3>
+                <a class="btn text-white bg-warning" target="_blank" href="https://github.com/devOnlin3/RandomImageAPIS">GitHub</a>
+            </section>
+        </section>    
+    <script src="script.js"></script>
+</body>
+
+</html>
